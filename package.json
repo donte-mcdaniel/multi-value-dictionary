@@ -1,0 +1,29 @@
+{
+    "name": "multi-value-dictionary",
+    "version": "1.0.0",
+    "description": "A command line (CLI) for creating, adding, viewing, and deleting values from a dictionary",
+    "author": "Donte McDaniel",
+    "license": "ISC",
+    "main": "bin/index.js",
+    "bin": {
+        "dictionary": "./bin/index.js"
+    },
+    "keyword": [
+        "cli"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run dictionary",
+        "dictionary": "ts-node index.ts"
+    },
+    "dependencies": {
+        "colors": "^1.4.0",
+        "inquirer": "8.1.2",
+        "ts-node": "^10.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.4.10",
+        "tslint": "^5.12.1",
+        "typescript": "^4.3.5"
+    }
+}
