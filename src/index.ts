@@ -62,8 +62,10 @@ function mainPrompt() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
@@ -84,8 +86,10 @@ function promptMembers() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
@@ -112,8 +116,10 @@ function promptAdd() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
@@ -139,8 +145,10 @@ function promptRemove() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
@@ -161,8 +169,10 @@ function promptRemove() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
@@ -182,11 +192,11 @@ function promptRemove() {
         mainPrompt();
     }).catch((error) => {
         if (error.isTtyError) {
-            console.log(error);
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
-            console.log(error);
+            console.error(error);
         }
     });
 }
@@ -212,8 +222,10 @@ function promptRemove() {
     }).catch((error) => {
         if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
+            console.error(error);
         } else {
             // Something else went wrong
+            console.error(error);
         }
     });
 }
